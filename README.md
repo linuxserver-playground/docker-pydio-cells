@@ -28,7 +28,7 @@ Find us at:
 [![GitHub Release](https://img.shields.io/github/release/linuxserver-playground/docker-pydio-cells.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver-playground/docker-pydio-cells/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver-playground/docker-pydio-cells/packages)
 [![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://linuxserver-playground.github.io/site/images/pydio-cells/)
-[![CI](https://ci.thelamer.duckdns.org:8443/badge/pydio-cells/latest.svg)](https://ci.thelamer.duckdns.org:8443/images/pydio-cells/latest)
+[![Builds](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Builds&logo=githubactions)](https://linuxserver-playground.github.io/site/images/pydio-cells/#builds)
 
 [Pydio-cells](https://pydio.com/) is the nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
 
@@ -279,7 +279,7 @@ docker run --rm --privileged ghcr.io/linuxserver/qemu-static --reset
 
 Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
 
-Every push builds and tests the image with the shared workflow in [`linuxserver-playground/workflows`](https://github.com/linuxserver-playground/workflows); the results for this tag are shown on the [CI status page](https://ci.thelamer.duckdns.org:8443/images/pydio-cells/latest).
+Every push builds and tests the image with the shared workflow in [`linuxserver-playground/workflows`](https://github.com/linuxserver-playground/workflows); every build's tests, screenshots and package changes are on [the image's builds](https://linuxserver-playground.github.io/site/images/pydio-cells/#builds) on the website.
 
 ## Versions
 
